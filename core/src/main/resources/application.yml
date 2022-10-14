@@ -1,0 +1,13 @@
+server:
+  port: 8083
+
+spring:
+  rabbitmq:
+    port: 5672
+    host: "rabbit"
+
+rabbit:
+  queue:
+    daily-queue: "daily_queue"
+    alert-queue: "alert_queue"
+    error-queue: "error_queue"
